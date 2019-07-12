@@ -64,7 +64,7 @@ If the flex-direction is set to row or left at the default value, the align-item
 
 5. Explain why git is valuable to a team of developers.
 
-GIT allows a team of developers to work on the same project at the same time separate from each other and with all versions intact. GIT simplifies this otherwise complicated process by allowing each team member to save drafts of their code so that you can look back at previous versions and potentially undo complicated errors. Team members can then easily merge their changes in with the master branch of the project when they are done.
+GIT allows a team of developers to work on the same project at the same time separate from each other and with all versions intact. GIT simplifies this otherwise complicated process by allowing each team member to save drafts of their code so that they can look back at previous versions and potentially undo complicated errors. Team members can then easily merge their changes in with the master branch of the project when they are done.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
