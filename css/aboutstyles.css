@@ -108,10 +108,6 @@ header nav a {
     color: black;
 }
 
-.about-header-section {
-    margin-top: 10px;
-}
-
 .about-header-section .about-header-img-div {
     display: flex;
     flex-direction: column;
@@ -142,8 +138,8 @@ header nav a {
 .main-content-section .main-content-div {
     display: flex;
     flex-direction: column;
-    width: 375px;    
-    height: 300px;
+    width: 350px;    
+    height: 320px;
     border-bottom: 1px dotted black;
     padding-bottom: 5px;
     justify-content: space-around;
@@ -162,8 +158,22 @@ header nav a {
     background-color: white;
 }
 
+/*stretch task*/
+@keyframes button-hover {
+    from {background-color: darkorchid;}
+    to {background-color: gold;}
+}
+
+.main-content-section .main-content-div button:hover {
+    /*stretch task*/
+  color: black;
+  animation-name: button-hover;
+  animation-duration: 4s;
+}
+
 .work-together-section {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 footer {

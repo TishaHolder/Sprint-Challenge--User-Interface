@@ -137,10 +137,19 @@ header nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    background-color: dodgerblue;   
+    background-color: dodgerblue;
+    border: 1px solid black;   
     
 }
 
+/*centers the form input items and button*/
+.form-input,
+.form-btn {
+    margin: 0 auto;
+
+}
+
+/*text area*/
 #contactus_message{
 	width: 320px;
     height: 280px;
@@ -148,17 +157,36 @@ header nav a {
     display: block;
 }
 
-
-
+/*text box*/
 #contactus_textbox{
-    width:160px;
+    width: 320px;
     margin-bottom: 10px;
     display: block;
 }
 
+/*send message button*/
 .contact-form-section .contact-form-div .form-btn {
     display: block;
+      
 }
+
+/*stretch task*/
+@keyframes button-hover {
+    from {background-color: darkorchid;}
+    to {background-color: gold;}
+}
+
+/*send message button*/
+.contact-form-section .contact-form-div .form-btn:hover {
+   
+  /*stretch task*/
+  color: black;
+  animation-name: button-hover;
+  animation-duration: 4s;
+    
+}
+
+
 
 footer {
     width: 100%;
