@@ -34,13 +34,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the practice of using HTML tags that focus on what the content of a web page means instead of its appearance. Instead of using <div> tags which are excellent for sectioning a site for presentational purposes like creating different layouts and styles, it is more desirable to use:
+<header> tags for the header section
+<nav> tags to define a site’s main navigation menu
+<footer> tags for the footer section
+<section> tags to define specific sections
+<article> for independent articles
+<figure> to wrap images or even code snippets
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block allows you to set the width and height on an element while display: inline does not.
+
+display: block starts on a new line, takes up as much width as its parent, and is not displayed next to other elements on the same line. display: inline does not start on a new line, takes up only as much room as its content, and is displayed next to other elements on the same line.
+
 
 3. What are the 4 areas of the box model?
 
+Content – This is the area where text and/or images are added.
+Padding – This is the transparent area directly surrounding the content.
+Border – this serves as a line or border around the padding and content areas. The border can be thick or thin, visible or transparent, based on the border property values.
+Margin – this is the area outside the border. This is another transparent area that creates space or distance between the box and its surrounding content.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+If the flex-direction is set to row or left at the default value, the align-items property works on the cross axis (vertical). If the flex direction is set to column, the align-items property works on the main axis (horizontal).
+
 5. Explain why git is valuable to a team of developers.
+
+GIT allows a team of developers to work on the same project at the same time separate from each other and with all versions intact. GIT simplifies this otherwise complicated process by allowing each team member to save drafts of their code so that you can look back at previous versions and potentially undo complicated errors. Team members can then easily merge their changes in with the master branch of the project when they are done.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -67,14 +67,69 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 800px;
     margin: 0 auto;
+    justify-content: space-around;
 }
+
+header {
+    display: flex;
+    width: 100%;
+    height: auto;      
+    
+}
+
+header .logo-div {
+    display: flex;
+    width: 30%;
+    height: 50px;
+    align-items: flex-end;
+    
+}   
+
+header .logo-div .logo-img {
+    width: 100%;
+    height: auto;    
+}
+
+header nav {
+    display: flex;
+    width: 70%;    
+    height: 50px;
+    justify-content: space-around;
+    align-items: flex-end;/*align items at the bottom of the container*/
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.banner-img-section {
+    margin-top: 25px;
+}
+
+.banner-img-section, 
+.banner-img-div {
+    display: flex;
+    width: 100%;   
+   
+}
+
+.banner-img {    
+    width: 100%;    
+}
+
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -104,12 +159,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .one {
+    background-color: teal;
+}
+
+.middle-content .boxes .two {
+    background-color: gold;
+}
+
+.middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .nine {
+    background-color: indigo;
+}
+
+.middle-content .boxes .ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
