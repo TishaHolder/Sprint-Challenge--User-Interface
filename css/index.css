@@ -116,8 +116,7 @@ header nav a {
 .banner-img-section, 
 .banner-img-div {
     display: flex;
-    width: 100%;   
-   
+    width: 100%;      
 }
 
 .banner-img {    
